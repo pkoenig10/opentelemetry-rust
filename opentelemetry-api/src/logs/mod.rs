@@ -6,7 +6,7 @@ use std::time::Duration;
 use thiserror::Error;
 
 mod logger;
-mod noop;
+pub mod noop;
 mod record;
 
 pub use logger::{Logger, LoggerProvider};
